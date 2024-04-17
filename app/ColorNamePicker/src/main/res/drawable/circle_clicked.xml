@@ -1,0 +1,14 @@
+<!-- res/drawable/circle_with_transparent_stroke.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Transparent stroke settings -->
+    <stroke
+        android:width="5dp"
+        android:color="@color/black" /> <!-- Set color to fully transparent (#00000000) -->
+
+    <!-- Size of the circle -->
+    <size
+        android:width="48dp"
+        android:height="48dp" />
+</shape>
